@@ -11,6 +11,10 @@ jobs:
 
       - restore_cache:
           key: cache-v1-{{ checksum "composer.lock" }}
+          
+      - run:
+          name: Disable xdebug
+          command: ./etc/circleci2/disable-xdebug.sh
 
       - run:
           name: Composer install
