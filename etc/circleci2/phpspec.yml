@@ -10,3 +10,7 @@ extensions:
       html: build/phpspec
       clover: build/logs/clover.xml
       php: build/cov/coverage.cov
+suites:
+    generix_suite:
+        namespace: DevboardLib\Generix
+        psr4_prefix: DevboardLib\Generix
