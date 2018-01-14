@@ -1,0 +1,7 @@
+formatter.name: progress
+extensions:
+  Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
+suites:
+    generix_suite:
+        namespace: DevboardLib\Generix
+        psr4_prefix: DevboardLib\Generix
