@@ -49,4 +49,13 @@ class GravatarIdTest extends TestCase
     {
         self::assertEquals($this->sut, $this->sut->deserialize($this->id));
     }
+
+    /**
+     * @expectedException \DomainException
+     * @expectedExceptionMessage GravatarId cant be empty
+     */
+    public function testCantBeEmpty()
+    {
+        new GravatarId('');
+    }
 }

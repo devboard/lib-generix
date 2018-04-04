@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\Generix;
 
+use DomainException;
+
 /**
  * @see \spec\DevboardLib\Generix\GravatarIdSpec
  * @see \Tests\DevboardLib\Generix\GravatarIdTest
@@ -15,6 +17,9 @@ class GravatarId
 
     public function __construct(string $id)
     {
+        if (true === empty($id)) {
+            throw new DomainException('GravatarId cant be empty');
+        }
         $this->id = $id;
     }
 
