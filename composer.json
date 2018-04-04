@@ -37,5 +37,10 @@
             "spec\\DevboardLib\\Generix\\": "spec/",
             "Tests\\DevboardLib\\Generix\\": "tests/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.4-dev"
+        }
     }
 }
