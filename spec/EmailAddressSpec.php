@@ -23,7 +23,7 @@ class EmailAddressSpec extends ObjectBehavior
     public function it_guards_against_invalid_email_address_format()
     {
         $this->beConstructedWith('zzz');
-        $this->shouldThrow(InvalidArgumentException::class)->duringInstantiation();
+        $this->isValid()->shouldReturn(false);
     }
 
     public function it_exposes_value()

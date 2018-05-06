@@ -29,11 +29,11 @@ class EmailAddressTest extends TestCase
 
     /**
      * @dataProvider provideInvalidEmailAddresses
-     * @expectedException \InvalidArgumentException
      */
-    public function testItGuardsAgainstBadlyFormattedEmailAddress(string $email)
+    public function testItMarksInvalidBadlyFormattedEmailAddress(string $email)
     {
-        new EmailAddress($email);
+        $sut = new EmailAddress($email);
+        $this->assertFalse($sut->isValid());
     }
 
     /** @dataProvider provideEmailAddresses */

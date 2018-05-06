@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace DevboardLib\Generix;
 
-use InvalidArgumentException;
-
 /**
  * @see \spec\DevboardLib\Generix\EmailAddressSpec
  * @see \Tests\DevboardLib\Generix\EmailAddressTest
@@ -15,10 +13,12 @@ class EmailAddress
     /** @var string */
     private $value;
 
+    private $valid = true;
+
     public function __construct(string $value)
     {
         if (false === filter_var($value, FILTER_VALIDATE_EMAIL)) {
-            throw new InvalidArgumentException(sprintf('"%s" is not a valid email', $value));
+            $this->valid = false;
         }
         $this->value = $value;
     }
@@ -26,6 +26,11 @@ class EmailAddress
     public function getValue(): string
     {
         return $this->value;
+    }
+
+    public function isValid(): bool
+    {
+        return $this->valid;
     }
 
     public function __toString(): string
