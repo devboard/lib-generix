@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace spec\DevboardLib\Generix;
 
 use DevboardLib\Generix\EmailAddress;
-use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 
 class EmailAddressSpec extends ObjectBehavior
