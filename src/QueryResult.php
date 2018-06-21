@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace DevboardLib\Generix;
 
-interface QueryResult
+interface QueryResult extends Serializable
 {
-    public function serialize(): array;
-
-    public static function deserialize(array $data);
 }
