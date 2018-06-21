@@ -1,6 +1,7 @@
 CHANGELOG
 
 Next release:
+ - Add RequestId (#34)
  - Adding Serializable interface (#35)
  - Using Serializable in existing interfaces (#35)
 
