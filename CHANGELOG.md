@@ -1,6 +1,6 @@
 CHANGELOG
 
-Next release:
+Version 1.1.0 [2018-06-21]:
  - Add RequestId (#34)
  - Add ramsey/uuid library as dependency (#34)
  - Adding Serializable interface (#35)
