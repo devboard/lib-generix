@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\Generix\Command;
 
-interface QueueableCommand extends Command
+use DevboardLib\Generix\Serializable;
+
+interface QueueableCommand extends Command, Serializable
 {
-    public function serialize(): array;
-
-    public static function deserialize(array $data);
-
     public function getQueueName(): string;
 
     public function getQueuePriority(): int;
