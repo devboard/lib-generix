@@ -1,5 +1,8 @@
 CHANGELOG
 
+Version 1.2.0 [2018-06-25]:
+ - Ugpgrading phpstan (0.10) & infection (0.9dev)
+
 Version 1.1.0 [2018-06-21]:
  - Add RequestId (#34)
  - Add ramsey/uuid library as dependency (#34)
