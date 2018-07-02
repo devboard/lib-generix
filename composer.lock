@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "0117d7487be1a0351eb9f76ab77d1dbc66928a23"
+                "reference": "f8d7f8392f2855a2670ceb8b661ce526d00156b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/0117d7487be1a0351eb9f76ab77d1dbc66928a23",
-                "reference": "0117d7487be1a0351eb9f76ab77d1dbc66928a23",
+                "url": "https://api.github.com/repos/infection/infection/zipball/f8d7f8392f2855a2670ceb8b661ce526d00156b5",
+                "reference": "f8d7f8392f2855a2670ceb8b661ce526d00156b5",
                 "shasum": ""
             },
             "require": {
@@ -746,7 +746,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2018-06-13T04:30:39+00:00"
+            "time": "2018-07-01T08:53:41+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -1655,7 +1655,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
@@ -3562,16 +3562,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "4.6.2",
+            "version": "4.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "d43b9a627cdcb7ce837a1d85a79b52645cdf44bc"
+                "reference": "76e31b7cb2ce1de53b36430a332daae2db0be549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/d43b9a627cdcb7ce837a1d85a79b52645cdf44bc",
-                "reference": "d43b9a627cdcb7ce837a1d85a79b52645cdf44bc",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/76e31b7cb2ce1de53b36430a332daae2db0be549",
+                "reference": "76e31b7cb2ce1de53b36430a332daae2db0be549",
                 "shasum": ""
             },
             "require": {
@@ -3597,7 +3597,7 @@
                 "MIT"
             ],
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
-            "time": "2018-06-12T21:23:15+00:00"
+            "time": "2018-06-29T20:25:43+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
