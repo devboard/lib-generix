@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "f8d7f8392f2855a2670ceb8b661ce526d00156b5"
+                "reference": "a70f44d87d0870a7022f2c25c9d14f09100704bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/f8d7f8392f2855a2670ceb8b661ce526d00156b5",
-                "reference": "f8d7f8392f2855a2670ceb8b661ce526d00156b5",
+                "url": "https://api.github.com/repos/infection/infection/zipball/a70f44d87d0870a7022f2c25c9d14f09100704bf",
+                "reference": "a70f44d87d0870a7022f2c25c9d14f09100704bf",
                 "shasum": ""
             },
             "require": {
@@ -746,7 +746,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2018-07-01T08:53:41+00:00"
+            "time": "2018-07-02T16:56:20+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -2226,16 +2226,16 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "4.3.0",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "0671a4c63377cad221d2202177853f070f718884"
+                "reference": "4474f1cb4cf9873996fc07fac6533ab9298eb6fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/0671a4c63377cad221d2202177853f070f718884",
-                "reference": "0671a4c63377cad221d2202177853f070f718884",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/4474f1cb4cf9873996fc07fac6533ab9298eb6fd",
+                "reference": "4474f1cb4cf9873996fc07fac6533ab9298eb6fd",
                 "shasum": ""
             },
             "require": {
@@ -2303,7 +2303,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2017-12-22T11:50:28+00:00"
+            "time": "2018-07-02T17:43:33+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -3868,7 +3868,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4312,16 +4312,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "73445bd33b0d337c060eef9652b94df72b6b3434"
+                "reference": "1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/73445bd33b0d337c060eef9652b94df72b6b3434",
-                "reference": "73445bd33b0d337c060eef9652b94df72b6b3434",
+                "url": "https://api.github.com/repos/symfony/process/zipball/1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a",
+                "reference": "1d1677391ecf00d1c5b9482d6050c0c27aa3ac3a",
                 "shasum": ""
             },
             "require": {
@@ -4357,7 +4357,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-30T07:26:09+00:00"
+            "time": "2018-05-31T10:17:53+00:00"
         },
         {
             "name": "symfony/stopwatch",
@@ -4410,7 +4410,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
