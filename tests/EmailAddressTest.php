@@ -17,14 +17,14 @@ class EmailAddressTest extends TestCase
     public function testItExposesValue(string $email): void
     {
         $sut = new EmailAddress($email);
-        $this->assertEquals($email, $sut->getValue());
+        self::assertEquals($email, $sut->getValue());
     }
 
     /** @dataProvider provideEmailAddresses */
     public function testItCanBeAutoConvertedToString(string $email): void
     {
         $sut = new EmailAddress($email);
-        $this->assertEquals($email, (string) $sut);
+        self::assertEquals($email, (string) $sut);
     }
 
     /**
@@ -33,7 +33,7 @@ class EmailAddressTest extends TestCase
     public function testItMarksInvalidBadlyFormattedEmailAddress(string $email): void
     {
         $sut = new EmailAddress($email);
-        $this->assertFalse($sut->isValid());
+        self::assertFalse($sut->isValid());
     }
 
     /** @dataProvider provideEmailAddresses */
@@ -41,7 +41,7 @@ class EmailAddressTest extends TestCase
     {
         $sut   = new EmailAddress($email);
         $other = new EmailAddress($email);
-        $this->assertTrue($sut->equals($other));
+        self::assertTrue($sut->equals($other));
     }
 
     public function testEmailAddressesAreEqualEvenWhenSomeLettersAreCapitalized(): void
@@ -49,7 +49,7 @@ class EmailAddressTest extends TestCase
         $sut                     = new EmailAddress('nobody@example.com');
         $capitalizedEmailAddress = new EmailAddress('Nobody@example.com');
 
-        $this->assertTrue($sut->equals($capitalizedEmailAddress));
+        self::assertTrue($sut->equals($capitalizedEmailAddress));
     }
 
     public function testEmailAddressesAreNotEqual(): void
@@ -57,7 +57,7 @@ class EmailAddressTest extends TestCase
         $sut               = new EmailAddress('nobody@example.com');
         $otherEmailAddress = new EmailAddress('other@example.net');
 
-        $this->assertFalse($sut->equals($otherEmailAddress));
+        self::assertFalse($sut->equals($otherEmailAddress));
     }
 
     public function provideEmailAddresses(): array
