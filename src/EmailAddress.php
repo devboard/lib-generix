@@ -13,6 +13,7 @@ class EmailAddress
     /** @var string */
     private $value;
 
+    /** @var bool */
     private $valid = true;
 
     public function __construct(string $value)
