@@ -14,14 +14,14 @@ use PHPUnit\Framework\TestCase;
 class EmailAddressTest extends TestCase
 {
     /** @dataProvider provideEmailAddresses */
-    public function testItExposesValue(string $email)
+    public function testItExposesValue(string $email): void
     {
         $sut = new EmailAddress($email);
         $this->assertEquals($email, $sut->getValue());
     }
 
     /** @dataProvider provideEmailAddresses */
-    public function testItCanBeAutoConvertedToString(string $email)
+    public function testItCanBeAutoConvertedToString(string $email): void
     {
         $sut = new EmailAddress($email);
         $this->assertEquals($email, (string) $sut);
@@ -30,21 +30,21 @@ class EmailAddressTest extends TestCase
     /**
      * @dataProvider provideInvalidEmailAddresses
      */
-    public function testItMarksInvalidBadlyFormattedEmailAddress(string $email)
+    public function testItMarksInvalidBadlyFormattedEmailAddress(string $email): void
     {
         $sut = new EmailAddress($email);
         $this->assertFalse($sut->isValid());
     }
 
     /** @dataProvider provideEmailAddresses */
-    public function testEmailAddressesAreEqual(string $email)
+    public function testEmailAddressesAreEqual(string $email): void
     {
         $sut   = new EmailAddress($email);
         $other = new EmailAddress($email);
         $this->assertTrue($sut->equals($other));
     }
 
-    public function testEmailAddressesAreEqualEvenWhenSomeLettersAreCapitalized()
+    public function testEmailAddressesAreEqualEvenWhenSomeLettersAreCapitalized(): void
     {
         $sut                     = new EmailAddress('nobody@example.com');
         $capitalizedEmailAddress = new EmailAddress('Nobody@example.com');
@@ -52,7 +52,7 @@ class EmailAddressTest extends TestCase
         $this->assertTrue($sut->equals($capitalizedEmailAddress));
     }
 
-    public function testEmailAddressesAreNotEqual()
+    public function testEmailAddressesAreNotEqual(): void
     {
         $sut               = new EmailAddress('nobody@example.com');
         $otherEmailAddress = new EmailAddress('other@example.net');

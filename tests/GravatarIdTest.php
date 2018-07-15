@@ -19,33 +19,33 @@ class GravatarIdTest extends TestCase
     /** @var GravatarId */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->id  = '205e460b479e2e5b48aec07710c08d50';
         $this->sut = new GravatarId($this->id);
     }
 
-    public function testGetId()
+    public function testGetId(): void
     {
         self::assertSame($this->id, $this->sut->getId());
     }
 
-    public function testGetValue()
+    public function testGetValue(): void
     {
         self::assertSame($this->id, $this->sut->getValue());
     }
 
-    public function testToString()
+    public function testToString(): void
     {
         self::assertSame($this->id, $this->sut->__toString());
     }
 
-    public function testSerialize()
+    public function testSerialize(): void
     {
         self::assertEquals($this->id, $this->sut->serialize());
     }
 
-    public function testDeserialize()
+    public function testDeserialize(): void
     {
         self::assertEquals($this->sut, $this->sut->deserialize($this->id));
     }
@@ -54,7 +54,7 @@ class GravatarIdTest extends TestCase
      * @expectedException \DomainException
      * @expectedExceptionMessage GravatarId cant be empty
      */
-    public function testCantBeEmpty()
+    public function testCantBeEmpty(): void
     {
         new GravatarId('');
     }
