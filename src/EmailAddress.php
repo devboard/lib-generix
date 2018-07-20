@@ -34,6 +34,14 @@ class EmailAddress
         return $this->valid;
     }
 
+    public function asString(): string
+    {
+        return $this->value;
+    }
+
+    /**
+     * @deprecated Lets use `asString()`
+     */
     public function __toString(): string
     {
         return $this->value;
