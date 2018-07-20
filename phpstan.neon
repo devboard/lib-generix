@@ -1,7 +1,6 @@
 parameters:
 	bootstrap: tests/bootstrap.php
 	ignoreErrors:
-	    - '#Construct empty\(\) is not allowed. Use more strict comparison.#'
 	    - '#Method DevboardLib\\Generix\\Serializable::deserialize\(\) has no return typehint specified.#'
 includes:
 	- vendor/phpstan/phpstan-phpunit/extension.neon
