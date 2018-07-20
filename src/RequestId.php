@@ -30,6 +30,14 @@ class RequestId
         return $this->id;
     }
 
+    public function asString(): string
+    {
+        return $this->id;
+    }
+
+    /**
+     * @deprecated Lets use `asString()`
+     */
     public function __toString()
     {
         return $this->id;
