@@ -1,7 +1,8 @@
 CHANGELOG
 
-Version 2.x []:
-
+Version 2.x [2018-07-20]:
+ - Deprecating __toString() in favour of asString()
+ - Removed GravatarId
 
 Version 1.2.0 [2018-06-25]:
  - Ugpgrading phpstan (0.10) & infection (0.9dev)
