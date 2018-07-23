@@ -1726,7 +1726,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
@@ -2638,16 +2638,16 @@
         },
         {
             "name": "phpstan/phpstan-strict-rules",
-            "version": "0.10",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-strict-rules.git",
-                "reference": "bffdf03fc70602833936dccf6c2eb3be58ed78d6"
+                "reference": "18c0b6e8899606b127c680402ab473a7b67166db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/bffdf03fc70602833936dccf6c2eb3be58ed78d6",
-                "reference": "bffdf03fc70602833936dccf6c2eb3be58ed78d6",
+                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/18c0b6e8899606b127c680402ab473a7b67166db",
+                "reference": "18c0b6e8899606b127c680402ab473a7b67166db",
                 "shasum": ""
             },
             "require": {
@@ -2680,7 +2680,7 @@
                 "MIT"
             ],
             "description": "Extra strict and opinionated rules for PHPStan",
-            "time": "2018-06-22T18:09:47+00:00"
+            "time": "2018-07-06T20:36:44+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
