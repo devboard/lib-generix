@@ -26,10 +26,6 @@ jobs:
             - /var/www/vendor
 
       - run:
-          name: Lint all PHP code files
-          command: git diff --name-only --diff-filter=ACMR 38a114ad4dca38dd1e3545c776d1926f261e64e0 | grep -E "^(spec|src|tests)\/.*php$" | xargs -n1 php -l 1> /dev/null
-
-      - run:
           name: PHPSpec
           command: ./vendor/bin/phpspec run
 
