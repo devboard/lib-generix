@@ -363,16 +363,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "e1809da56ce1bd1b547a752936817341ac244d8e"
+                "reference": "e37cbd80da64afe314c72de8d2d2fec0e40d9373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/e1809da56ce1bd1b547a752936817341ac244d8e",
-                "reference": "e1809da56ce1bd1b547a752936817341ac244d8e",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/e37cbd80da64afe314c72de8d2d2fec0e40d9373",
+                "reference": "e37cbd80da64afe314c72de8d2d2fec0e40d9373",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +403,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-08-16T10:54:23+00:00"
+            "time": "2018-08-23T12:00:19+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -722,16 +722,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.10.0",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "befd28b1adfb2468f2318010211d7ca5232c2e56"
+                "reference": "84762768fe242f2f59d7a3ee43bf8610a74c3ce4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/befd28b1adfb2468f2318010211d7ca5232c2e56",
-                "reference": "befd28b1adfb2468f2318010211d7ca5232c2e56",
+                "url": "https://api.github.com/repos/infection/infection/zipball/84762768fe242f2f59d7a3ee43bf8610a74c3ce4",
+                "reference": "84762768fe242f2f59d7a3ee43bf8610a74c3ce4",
                 "shasum": ""
             },
             "require": {
@@ -804,7 +804,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2018-08-11T07:36:24+00:00"
+            "time": "2018-08-24T17:26:55+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -1672,7 +1672,7 @@
                     "homepage": "http://blog.astrumfutura.com"
                 },
                 {
-                    "name": "Théo Fidry",
+                    "name": "Théo FIDRY",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
@@ -1726,7 +1726,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
