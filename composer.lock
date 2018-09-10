@@ -1672,7 +1672,7 @@
                     "homepage": "http://blog.astrumfutura.com"
                 },
                 {
-                    "name": "Théo Fidry",
+                    "name": "Théo FIDRY",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
@@ -1726,7 +1726,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
@@ -2589,16 +2589,16 @@
         },
         {
             "name": "phpstan/phpstan-mockery",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-mockery.git",
-                "reference": "2a30b98708197c4439e0ec5c2ecf9451ffaed85b"
+                "reference": "14d568b6b56c957c9ae5330603303a367b21f0e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/2a30b98708197c4439e0ec5c2ecf9451ffaed85b",
-                "reference": "2a30b98708197c4439e0ec5c2ecf9451ffaed85b",
+                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/14d568b6b56c957c9ae5330603303a367b21f0e9",
+                "reference": "14d568b6b56c957c9ae5330603303a367b21f0e9",
                 "shasum": ""
             },
             "require": {
@@ -2634,7 +2634,7 @@
                 "MIT"
             ],
             "description": "PHPStan Mockery extension",
-            "time": "2018-08-13T20:17:04+00:00"
+            "time": "2018-09-09T15:22:28+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
